@@ -13,4 +13,7 @@ def caesar():
             # Find the index of char in the string alphabet
             index = alphabet.index(char)
             new_index = (index + shift) % len(alphabet)
+            new_char = alphabet[new_index]
+            encrypted_text.append(new_char)
+    print(encrypted_text)
 
