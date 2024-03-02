@@ -6,10 +6,10 @@ Set the text variable to the message you want to encrypt.
 Set the shift variable to the number of positions you want to shift each letter by.
 
 # Example
-`text = 'Hello World'
-shift = 3`
+`text = 'Hello World'`
+`shift = 3`
 
-caesar()
+`caesar()`
 This will output: `Khoor Zruog`
 
 # Explanation
